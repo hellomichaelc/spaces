@@ -1,0 +1,210 @@
+﻿<html>
+<head>
+<title>Spaces (found 9)</title>
+ <script src="js/jquery.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+ <link rel="stylesheet" type="text/css" href="css/appstyle.css">
+ <script src="http://assets.livestax.com/livestax-0.4.0.min.js"></script>
+ <link href="http://assets.livestax.com/theme-0.1.1.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="container">
+<div class="panel panel-default panel-collapsible">
+  <div class="panel-heading collapsed" data-toggle="collapse" data-target="#panel-collapse-basic">
+    <h4 class="panel-title"><strong>Select Filters</strong></h4>
+  </div>
+  <div id="panel-collapse-basic" class="panel-collapse collapse" style="height: 0px;">
+    <div class="panel-body">
+       <div class="checkbox">
+            <label><input type="checkbox"> Public Spaces</label>
+      </div>
+       <div class="checkbox">
+            <label><input type="checkbox"> Owner Only Spaces</label>
+      </div>
+       <div class="checkbox">
+            <label><input type="checkbox"> My Organisation Spaces</label>
+      </div>
+       <div class="checkbox">
+            <label><input type="checkbox"> Whitelisted Spaces</label>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="filter-list-rich-types-media">
+  <div class="container-fluid">
+    <br>
+    <form class="input-group search-input" novalidate="">
+      <input type="text" name="search-input" required="required" class="form-control" placeholder="Search spaces or users">
+      <input type="reset" alt="clear" value="×">
+      <i class="fa fa-search fa-fw text-muted"></i>
+    </form>
+    <br>
+  </div>
+  <ul class="space-list list-group list-group-border-top list-group-border-bottom">
+    <li class="list-group-item media-group-item media-row">
+      <div class="media-badge media-badge-sm media-badge-warning-inverse img-circle">
+          <span class="media-badge-container">
+            <h3><i class="fa fa-list-alt"></i></h3>
+          </span>
+        </div>
+      <div class="stretch">
+        <h4 class="line-tighter text username">Business Units</h4>
+        <h6 class="text-muted text line-tight">Lynne Roberts</h6>
+        <h5 class="small text-warning line-tighter">Whitelisted Space</h5>
+      </div>
+    </li>
+
+    <li class="list-group-item media-group-item media-row active unselectable">
+      <div class="media-badge media-badge-sm media-badge-info-inverse img-circle">
+          <span class="media-badge-container">
+            <h3><i class="fa fa-building"></i></h3>
+          </span>
+        </div>
+      <div class="stretch">
+      <div class="dropdown-item pull-right">
+        <a href="#" class="btn btn-primary dropdown-toggle menu" data-toggle="dropdown" aria-expanded="false">
+          <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu dropdown-menu-right">
+          <li><a href="#">Visit Space</a></li>
+          <li><a href="#">Delete Space</a></li>
+        </ul>
+      </div>
+        <h4 class="line-tighter text username">Corporate</h4>
+        <h6 class="text-muted text line-tight">Lynne Roberts</h6>
+        <h5 class="small text-success line-tighter">My Organisation Space</h5>
+      </div>
+    </li>
+    <li class="list-group-item media-group-item media-row">
+      <div class="media-badge media-badge-sm media-badge-danger-inverse img-circle">
+          <span class="media-badge-container">
+            <h3><i class="fa fa-users"></i></h3>
+          </span>
+        </div>
+      <div class="stretch">
+        <h4 class="line-tighter username">Fun</h4>
+        <h6 class="text-muted line-tight">Anthony Roberts</h6>
+        <h5 class="small text-danger line-tighter">Public Space</h5>
+      </div>
+    </li>
+
+    <li class="list-group-item media-group-item media-row">
+      <div class="media-badge media-badge-sm media-badge-success-inverse img-circle">
+          <span class="media-badge-container">
+            <h3><i class="fa fa-building"></i></h3>
+          </span>
+        </div>
+      <div class="stretch">
+        <h4 class="line-tighter username">IT Team</h4>
+        <h6 class="text-muted line-tight">Richard Thomas</h6>
+        <h5 class="small text-success line-tighter">My Organisation Space</h5>
+      </div>
+    </li>
+
+    <li class="list-group-item media-group-item media-row">
+      <div class="media-badge media-badge-sm media-badge-success-inverse img-circle">
+          <span class="media-badge-container">
+            <h3><i class="fa fa-building"></i></h3>
+          </span>
+        </div>
+      <div class="stretch">
+        <h4 class="line-tighter username">HR Team</h4>
+        <h6 class="text-muted line-tight">Lynne Roberts</h6>
+        <h5 class="small text-success line-tighter">My Organisation Space</h5>
+      </div>
+    </li>
+
+    <li class="list-group-item media-group-item media-row">
+      <div class="media-badge media-badge-sm media-badge-info-inverse img-circle">
+          <span class="media-badge-container">
+            <h3><i class="fa fa-lock"></i></h3>
+          </span>
+        </div>
+      <div class="stretch">
+        <h4 class="line-tighter username">Design Inspirations</h4>
+        <h6 class="text-muted line-tight">Michael Castro</h6>
+        <h5 class="small text-info line-tighter">Owner Only Space</h5>
+      </div>
+    </li>
+
+    </li>
+    <li class="list-group-item media-group-item media-row">
+      <div class="media-badge media-badge-sm media-badge-danger-inverse img-circle">
+          <span class="media-badge-container">
+            <h3><i class="fa fa-users"></i></h3>
+          </span>
+        </div>
+      <div class="stretch">
+        <h4 class="line-tighter username">Marketing Strategy</h4>
+        <h6 class="text-muted line-tight">Neil Simmons</h6>
+        <h5 class="small text-danger line-tighter">Public Space</h5>
+      </div>
+    </li>
+
+    <li class="list-group-item media-group-item media-row">
+      <div class="media-badge media-badge-sm media-badge-info-inverse img-circle">
+          <span class="media-badge-container">
+            <h3><i class="fa fa-building"></i></h3>
+          </span>
+        </div>
+      <div class="stretch">
+        <h4 class="line-tighter text username">Fitness and Wellbeing</h4>
+        <h6 class="text-muted text line-tight">Lynne Roberts</h6>
+        <h5 class="small text-success line-tighter">My Organisation Space</h5>
+      </div>
+    </li>
+    <li class="list-group-item media-group-item media-row">
+      <div class="media-badge media-badge-sm media-badge-warning-inverse img-circle">
+          <span class="media-badge-container">
+            <h3><i class="fa fa-list-alt"></i></h3>
+          </span>
+        </div>
+      <div class="stretch">
+        <h4 class="line-tighter text username">Design Squad</h4>
+        <h6 class="text-muted text line-tight">Robin Warburton</h6>
+        <h5 class="small text-warning line-tighter">Whitelisted Space</h5>
+      </div>
+    </li>
+
+  </ul>
+</div>
+
+<script>
+  function filterListAction(inputValue, listItems, listItemDecorator, querySelector, displayType) {
+    for(var i = 0; i < listItems.length; i++) {
+      var listItem = listItems[i],
+          listItemTitle = (querySelector.trim() == "" ? listItem : listItem.querySelector(querySelector)),
+          listText = listItemTitle.textContent,
+          inputValueIndex = listText.toLowerCase().trim().indexOf(inputValue);
+
+      listItem.style.display = "none";
+      if (inputValueIndex >= 0 ) {
+        listItem.style.display = displayType;
+        listItemDecorator(listItemTitle, listText, inputValue, inputValueIndex);
+      }
+    }
+  }
+
+  var filterListRichMedia_Items = document.querySelectorAll(".filter-list-rich-types-media ul li"),
+      richMedia_Decorator = function itemDecorator(listItem, listText, inputValue, inputValueIndex) {
+                              listItem.innerHTML = listText.substr(0, inputValueIndex) +
+                                                   "<strong class='text-primary'>" +
+                                                   listText.substr(inputValueIndex, inputValue.length) +
+                                                   "</strong>" +
+                                                   listText.substr(inputValueIndex + inputValue.length);
+                            };
+
+  document.querySelector(".filter-list-rich-types-media input[type=text]").onkeyup = function(e) {
+    var inputValue = this.value.toLowerCase().trim();
+    filterListAction(inputValue, filterListRichMedia_Items, richMedia_Decorator, ".username", "flex");
+  }
+
+  document.querySelector(".filter-list-rich-types-media input[type=reset]").onclick = function() {
+    filterListAction("", filterListRichMedia_Items, richMedia_Decorator, ".username", "flex");
+  }
+</script>
+</body>
+</html>
